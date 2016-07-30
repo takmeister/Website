@@ -1,11 +1,11 @@
 h1 {
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 30px;
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 40px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
-	line-height: 45px;
-	letter-spacing: 2px;
+	line-height: 23px;
+	letter-spacing: 0px;
 }
 h2 {
 	font-family: 'Titillium Web', sans-serif;
@@ -114,5 +114,5 @@ a {
 .bannerb {
 	border: solid #FFFFFF 2px;
 	border-radius: 20px;
-	padding: 1px 10px 1px 10px;
+	padding: 0px 30px 0px 30px;
 }
