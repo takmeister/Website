@@ -35,6 +35,7 @@ function animateDark(i){
 		document.getElementById("topheader").style.background = "rgb("+ Math.round(207-(207/255)*i).toString(10) + "," + Math.round(20+((36-20)/255)*i).toString(10) + "," + Math.round(43+((125-43)/255)*i).toString(10) + ")";
 		document.getElementById("topheader-right").style.background = "rgb("+ Math.round(207-(207/255)*i).toString(10) + "," + Math.round(20+((36-20)/255)*i).toString(10) + "," + Math.round(43+((125-43)/255)*i).toString(10) + ")";
 		document.getElementById("footer").style.background = "rgb("+ Math.round(207-(207/255)*i).toString(10) + "," + Math.round(20+((36-20)/255)*i).toString(10) + "," + Math.round(43+((125-43)/255)*i).toString(10) + ")";
+		document.body.style.background = "rgb("+ Math.round(207-(207/255)*i).toString(10) + "," + Math.round(20+((36-20)/255)*i).toString(10) + "," + Math.round(43+((125-43)/255)*i).toString(10) + ")";
 		i++;
 		setTimeout(function(){animateDark(i);},1000/speed);
 	}
@@ -53,6 +54,7 @@ function animateLight(i){
 		document.getElementById("topheader").style.background = "rgb("+ Math.round((207/255)*i).toString(10) + "," + Math.round(36-((36-20)/255)*i).toString(10) + "," + Math.round(125-((125-43)/255)*i).toString(10) + ")";
 		document.getElementById("topheader-right").style.background = "rgb("+ Math.round((207/255)*i).toString(10) + "," + Math.round(36-((36-20)/255)*i).toString(10) + "," + Math.round(125-((125-43)/255)*i).toString(10) + ")";
 		document.getElementById("footer").style.background = "rgb("+ Math.round((207/255)*i).toString(10) + "," + Math.round(36-((36-20)/255)*i).toString(10) + "," + Math.round(125-((125-43)/255)*i).toString(10) + ")";
+		document.body.style.background = "rgb("+ Math.round((207/255)*i).toString(10) + "," + Math.round(36-((36-20)/255)*i).toString(10) + "," + Math.round(125-((125-43)/255)*i).toString(10) + ")";
 		i++;
 		setTimeout(function(){animateLight(i);},1000/speed);
 	}
